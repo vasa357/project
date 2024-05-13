@@ -58,7 +58,7 @@ def main():
                 if isinstance(target, Sheriff): 
                     print(f"{sheriff.name} був убитий мафією!") 
                     players.remove(sheriff) 
-                    break  # Завершуємо гру, бо мафія убила шерифа 
+                    break
  
                 else: 
                     players.remove(target) 
